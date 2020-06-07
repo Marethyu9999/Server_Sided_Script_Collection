@@ -1,0 +1,3 @@
+local Player = game:GetService("Players")["Username"]
+local Rank = 4
+require(game:GetService("ReplicatedStorage"):WaitForChild("HDAdminSetup")):GetMain():GetModule("API"):SetRank(Player, Rank, "Perm") _G.H
